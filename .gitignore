@@ -10,8 +10,13 @@
 [Pp]ackages/
 ProcessingStage/
 
+#Package log file
+package/log-Device Power Sequencer.txt
+
 #InstrumentStudio
 *.[Cc]ache/
 
-# Executables
+#Executables
 *.exe
+
+
