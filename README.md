@@ -1,15 +1,40 @@
-# GitHub Repo Template
+# Device Power Sequencer
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+This plug-in allows the user to control multiple power rails in a predefined sequence and with a controlled ramp rate.
 
-## Using GitHub Repo Template
+![Screenshot](docs/images/powerup-screenshot.png)
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+## Supported Hardware
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+NI SMUs:
+- PXIe-4135
+- PXIe-4136
+- PXIe-4137
+- PXIe-4138
+- PXIe-4139
+- PXIe-4140
+- PXIe-4141
+- PXIe-4142
+- PXIe-4143
+- PXIe-4144
+- PXIe-4145
+- PXIe-4147
+
+## Software Installation
+
+(*This section is if you only want to use the pre-compiled plug-ins. If you want to open the source code, go to [software development](docs/sw-dev.md).*)  
+Install from NI Package Manager:
+
+- NI DCPower (2024 Q4 or greater)
+- InstrumentStudio (2024 Q4 or greater)
+
+Download the latest NI package from the releases section of this repo or add the feed to NI Package Manager to get updates from this repo and other in this community. To use the NI Package Manager feeds, refer to this: [Subscribing to package feeds](https://github.com/NI-MeasurementLink-Plug-Ins/package-manager-feeds)
+
+## Getting Started
+
+Check out the [manual](docs/manual.md) on how to use the plug-in.
+
+## Contributing
+
+Use the instructions in [software development](docs/sw-dev.md) for setting up a development environment and overview of the code.
+
